@@ -1,0 +1,17 @@
+2021/06/24 03:25:51 [INFO] Configuration file location: /home/tara/acme-airline/ca/server/fabric-ca-server-config.yaml
+2021/06/24 03:25:51 [INFO] Starting server in home directory: /home/tara/acme-airline/ca/server
+2021/06/24 03:25:51 [INFO] Server Version: 1.4.6
+2021/06/24 03:25:51 [INFO] Server Levels: &{Identity:2 Affiliation:1 Certificate:1 Credential:1 RAInfo:1 Nonce:1}
+2021/06/24 03:25:51 [INFO] The CA key and certificate already exist
+2021/06/24 03:25:51 [INFO] The key is stored by BCCSP provider 'SW'
+2021/06/24 03:25:51 [INFO] The certificate is at: /home/tara/acme-airline/ca/server/ca-cert.pem
+2021/06/24 03:25:51 [INFO] Initialized sqlite3 database at /home/tara/acme-airline/ca/server/fabric-ca-server.db
+2021/06/24 03:25:51 [INFO] The Idemix issuer public and secret key files already exist
+2021/06/24 03:25:51 [INFO]    secret key file location: /home/tara/acme-airline/ca/server/msp/keystore/IssuerSecretKey
+2021/06/24 03:25:51 [INFO]    public key file location: /home/tara/acme-airline/ca/server/IssuerPublicKey
+2021/06/24 03:25:51 [INFO] The Idemix issuer revocation public and secret key files already exist
+2021/06/24 03:25:51 [INFO]    private key file location: /home/tara/acme-airline/ca/server/msp/keystore/IssuerRevocationPrivateKey
+2021/06/24 03:25:51 [INFO]    public key file location: /home/tara/acme-airline/ca/server/IssuerRevocationPublicKey
+2021/06/24 03:25:51 [INFO] Home directory for default CA: /home/tara/acme-airline/ca/server
+2021/06/24 03:25:51 [INFO] Operation Server Listening on 127.0.0.1:9443
+2021/06/24 03:25:51 [INFO] Listening on http://0.0.0.0:7054

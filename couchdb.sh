@@ -7,11 +7,11 @@
 
 # v1.3-3
 # Pull version 2.2.0 of CouchDB - latest version 2.3.0 is not compatible with 
-docker run  -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=password --name=couchdb -p 5984:5984 -d couchdb:2.2.0
+docker run  -e COUCHDB_USER=admin -e COUCHDB_PASSWORD=password --name=couchdb -p 5984:5984 -d couchdb:2.2.0 --restart unless-stopped
 
 # 2. Verify that the container is up
 # Updated the time from 5s to 8s
-sleep 8s
+sleep 2s
 
 curl localhost:5984
 
